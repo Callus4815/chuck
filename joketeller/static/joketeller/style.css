@@ -4,9 +4,11 @@
 h3 {
   color: red;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 94px;
+  font-size: 35px;
 }
 
 body {
   background: url('images/chuck.jpg') no-repeat center;
+  background-color: black;
 }
