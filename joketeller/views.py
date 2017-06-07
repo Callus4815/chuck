@@ -10,7 +10,7 @@ import json
 
 
 def index(request):
-    call = requests.get("https://api.icndb.com/jokes/random/2")
+    call = requests.get("https://api.icndb.com/jokes/random/1?firstName=Patrick&lastName=Cox&limitTo=[explicit]")
     called = call.text
     parsed = json.loads(called)
     told = parsed['value'][0]['joke']
